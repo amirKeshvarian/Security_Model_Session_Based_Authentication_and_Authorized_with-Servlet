@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Security_Model_Session_Based_Authentication_and_Authorized:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Security_Model_Session_Based_Authentication_and_Authorized_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Security_Model_Session_Based_Authentication_and_Authorized/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Security_Model_Session_Based_Authentication_and_Authorized" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

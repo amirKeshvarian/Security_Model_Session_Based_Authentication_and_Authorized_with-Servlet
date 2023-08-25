@@ -1,0 +1,3 @@
+SQL> create table users (username varchar2(20), password varchar2(32), role_name varchar2(20));
+//and save password with hash function like md5
+//Ex. SQL> insert into users values ('amir','6f814fa1b5df44ad1dc22a6032b1f4fa','admin');

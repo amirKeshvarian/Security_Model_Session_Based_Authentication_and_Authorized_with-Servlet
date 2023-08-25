@@ -1,0 +1,12 @@
+1-XSS Attack must be protection with Apache Lang library
+2-except port 80 all of the ports must be closed
+3-must be used HTTPS with valid certificate :
+//must java version system environment  compatible with version applicatio server
+C:\Users\amir>keytool -genkey -alias amir -keypass myjava123 -keystore mycer.cer -storepass myjava123 -keyalg RSA
+
+//then certificate 'mycer.cer' copy/paste to directory Tomcat/conf
+
+//and now in conf/server.xml update Connector tag to:
+  <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true"
+               maxThreads="150" scheme="https" secure="true"
+               clientAuth="false" sslProtocol="TLS" keystoreFile="conf/mycer.cer" keystorePass="myjava123"/>
