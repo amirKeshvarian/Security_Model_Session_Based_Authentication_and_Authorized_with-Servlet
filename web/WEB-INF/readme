@@ -1,6 +1,8 @@
 1-XSS Attack must be protection with Apache Lang library
+
 2-except port 80 all of the ports must be closed
-3-must be used HTTPS with valid certificate :
+
+3-must be used HTTPS with valid certificate but heer for create not valid certificate use keytool:
 //must java version system environment  compatible with version applicatio server
 C:\Users\amir>keytool -genkey -alias amir -keypass myjava123 -keystore mycer.cer -storepass myjava123 -keyalg RSA
 
